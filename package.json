@@ -16,5 +16,8 @@
     "url": "https://github.com/babo-5/dodamkakaoproject/issues"
   },
   "homepage": "https://github.com/babo-5/dodamkakaoproject#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
 }
