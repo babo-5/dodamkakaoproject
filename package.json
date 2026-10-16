@@ -18,6 +18,8 @@
   "homepage": "https://github.com/babo-5/dodamkakaoproject#readme",
   "description": "",
   "dependencies": {
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0",
     "express": "^5.3.0"
   }
 }
