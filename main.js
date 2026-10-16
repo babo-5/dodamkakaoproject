@@ -93,8 +93,7 @@ async function getWeatherFromNaver(area) {
 
         // 5. 최종 출력 메시지 디자인
         let retMsg = "[ " + area + " 날씨 정보 ]\n";
-        retMsg += "─────────────────\n";
-        retMsg += "현재온도 : " + cur_temp + " (" + diff_temp + ")\n";
+        retMsg += "현재온도 : " + cur_temp + " (전날보다 " + diff_temp + ")\n";
         retMsg += "체감온도 : " + v1 + "\n";
         retMsg += "습도 : " + v2 + "\n";
         retMsg += "풍속 : " + v3 + "\n";
